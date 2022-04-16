@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
               }else{
                   val videoList=ArrayList<String>()
                   videoList.add(videoPath)
-                  videoFolder.add(VideoFolder(folderName,videoList))
+                  videoFolder.add(VideoFolder(folderName?:"root",videoList))
               }
             }
         }
