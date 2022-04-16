@@ -7,6 +7,9 @@
     tools:context=".VideoPlayer">
 
     <VideoView
+        android:layout_centerInParent="true"
+
+        android:scrollbarAlwaysDrawVerticalTrack="true"
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
